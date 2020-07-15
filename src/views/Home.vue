@@ -1,7 +1,7 @@
 <template>
   <div class="intro">
     <h1>Welcome to Image Finder App</h1>
-    <button @click="()=>$router.push('images')">See Images</button>
+    <button class="btn" @click="()=>$router.push('images')">Click To See Images</button>
     <p></p>
   </div>
 </template>
@@ -19,7 +19,21 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #de8d03;
   margin-top: 60px;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.619); /* Green */
+  border: none;
+  color: #de8d03;
+  font-size: 24px;
+  padding: 32px 16px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #de8d03; /* Green */
+  color: white;
 }
 </style>
