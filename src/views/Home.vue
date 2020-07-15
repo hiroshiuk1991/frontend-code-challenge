@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <PostImages />
+  <div>
+      <h1> Welcome to Image Finder App </h1>
+      <h2>This app has been created to showcase different images created by photographers/artists. </h2>
+      <button > See Images </button>
+      <p></p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import PostImages from '@/components/PostImages.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    PostImages
-  }
+  name: 'Home'
+
 }
 </script>
+
+<style>
+
+</style>

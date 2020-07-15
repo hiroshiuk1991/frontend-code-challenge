@@ -1,7 +1,8 @@
 <template>
 <div>
     <div v-for="image in images" :key="image.id">
-        <img  src="" v-bind="image.raw" v-bind:alt="image.alt_description">
+        <img v-bind:src="image.urls.thumb" v-bind:alt="image.alt_description">
+        <h3> {{ image.user.first_name }} </h3>
     </div>
 </div>
   

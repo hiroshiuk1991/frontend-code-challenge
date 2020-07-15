@@ -1,5 +1,7 @@
 import axios from 'axios'
 
+//TODO: HIDE KEY
+
 const images = {
     namespaced: true, 
   state: {
