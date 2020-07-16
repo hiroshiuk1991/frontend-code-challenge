@@ -1,7 +1,7 @@
 <template>
   <div class="intro">
     <h1>Welcome to Image Finder App</h1>
-    <button class="btn" @click="()=>$router.push('images')">Click To See Images</button>
+    <button class="btn" @click="()=>$router.push('images')">Click Here To See Images</button>
     <p></p>
   </div>
 </template>
@@ -30,6 +30,8 @@ export default {
   font-size: 24px;
   padding: 32px 16px;
   transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
 }
 
 .btn:hover {
