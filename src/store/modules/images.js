@@ -1,6 +1,11 @@
 import axios from 'axios'
 
-//TODO: HIDE KEY
+require('dotenv').config()
+
+//I've tried using the 'dotenv' npm package to hide the API key
+
+console.log(process.env)
+
 
 const images = {
     namespaced: true, 
@@ -15,7 +20,7 @@ const images = {
   actions: {
       loadImages({commit}) {
           axios
-              .get('https://api.unsplash.com/photos/?client_id=wB7ykfkIlgkyyxyokGSHzf3DzzDQKESX5UrU1Ai4TPU')
+              .get(`https://api.unsplash.com/photos/?client_id=wB7ykfkIlgkyyxyokGSHzf3DzzDQKESX5UrU1Ai4TPU`)
               .then(resp => {
                   commit('SET_IMAGES', resp.data)
               })

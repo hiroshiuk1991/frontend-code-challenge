@@ -11,6 +11,8 @@
       </h2>
       <h3>Bio: {{image.user.bio}}</h3>
       <h4>Likes: {{ image.likes }}</h4>
+      
+
     </div>
   </div>
 </template>
