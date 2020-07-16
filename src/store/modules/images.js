@@ -4,7 +4,7 @@ import axios from 'axios'
 
 //I've tried using the 'dotenv' npm package to hide the API key, however it hasnt worked.
 
-// console.log(process.env)
+// console.log(process.env.VUE_APP_API_KEY)
 
 
 const images = {

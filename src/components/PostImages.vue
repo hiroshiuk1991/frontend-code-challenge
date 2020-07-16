@@ -7,9 +7,9 @@
         v-bind:alt="image.alt_description"
       />
       <h2>
-        <a v-bind:href="image.user.portfolio_url">Artist: {{ image.user.first_name }}</a>
+        <a v-bind:href="image.user.portfolio_url"> {{ image.user.first_name }}</a>
       </h2>
-      <h3>Bio: {{image.user.bio}}</h3>
+      <!-- <h3>{{image.alt_description}}</h3> -->
       <h4>Likes: {{ image.likes }}</h4>
       
 
