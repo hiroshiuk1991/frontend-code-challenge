@@ -1,6 +1,8 @@
 <template>
   <div class="about">
-    <h2>This app has been created to showcase different images created by photographers/artists. </h2>
-
+    <h1>This app has been created to showcase the different artwork of various photographers/artists. </h1>
+    <h2>This app has been created using</h2>
+    <h2>VueJS - Vuex - Axios - Usplash API</h2>
+  
   </div>
 </template>

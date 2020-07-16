@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <h1>Welcome to Image Finder App</h1>
+    <h1 class='welcome'>Welcome to Image Finder App</h1>
     <button class="btn" @click="()=>$router.push('images')">Click Here To See Images</button>
     <p></p>
   </div>
@@ -30,12 +30,23 @@ export default {
   font-size: 24px;
   padding: 32px 16px;
   transition-duration: 0.4s;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 130px;
 
 }
 
 .btn:hover {
   background-color: #de8d03; /* Green */
   color: white;
+}
+
+.intro {
+  margin-top: 90px;
+}
+
+.welcome {
+  margin-top: 100px;
+  font-size: 100px;
 }
 </style>

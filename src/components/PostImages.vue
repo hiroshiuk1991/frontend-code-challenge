@@ -9,6 +9,8 @@
       <h2>
         <a v-bind:href="image.user.portfolio_url">Artist: {{ image.user.first_name }}</a>
       </h2>
+      <h3>Bio: {{image.user.bio}}</h3>
+      <h4>Likes: {{ image.likes }}</h4>
     </div>
   </div>
 </template>
@@ -46,14 +48,14 @@ export default {
 }
 .image-card__image {
   border-radius: 5px 5px 0 0;
-  width: 100%;
+  width: 90%;
   height: 200px;
   object-fit:initial;
   padding: 10px;
 }
-// .image-card__body {
-//   padding: 0.5rem 1rem 1rem;
-// //   display: table;
-// //   table-layout: fixed;
-// }
+.image-card__body {
+  padding: 0.5rem 1rem 1rem;
+  display: table;
+  table-layout: fixed;
+}
 </style>
