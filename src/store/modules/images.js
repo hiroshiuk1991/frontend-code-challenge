@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-require('dotenv').config()
+// require('dotenv').config()
 
-//I've tried using the 'dotenv' npm package to hide the API key
+//I've tried using the 'dotenv' npm package to hide the API key, however it hasnt worked.
 
-console.log(process.env)
+// console.log(process.env)
 
 
 const images = {
